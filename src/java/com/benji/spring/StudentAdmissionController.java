@@ -18,7 +18,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class StudentAdmissionController {
-    
+    ///
     @InitBinder
     public void initBinder(WebDataBinder binder){
         //binder.setDisallowedFields(new String[] {"studentMobile"});
